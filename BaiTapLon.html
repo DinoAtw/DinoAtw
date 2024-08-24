@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV WEB</title>
+    <link rel="stylesheet" href="../css/BaiTapLon.css"> <!-- Liên kết đến file CSS -->
+</head>
+</head>
+<body>
+    <div class="filter-buttons">
+        <button onclick="filterImages('all')" id="all-button" class="active">Tất cả</button>
+        <button onclick="filterImages('simple')" id="simple-button">Đơn Giản</button>
+        <button onclick="filterImages('modern')" id="modern-button">Hiện Đại</button>
+    </div>
+
+    <div id="image-container">
+        <ul class="image-list simple">
+            <li data-link="https://www.canva.com/design/DAGOpVsSA4w/Ck8epOcCH2XnNl4g_gVjkg/edit" onclick="openModal('../image/simpleCV (1).png', this.getAttribute('data-link'))"><img src="../image/simpleCV (1).png" alt="Đơn giản 1"></li>
+            <li data-link="https://www.canva.com/design/DAGOpaNS7C8/wuhXTzjPMp3tix9x-OKbJw/edit" onclick="openModal('../image/simpleCV (2).png', this.getAttribute('data-link'))"><img src="../image/simpleCV (2).png" alt="Đơn giản 2"></li>
+            <li data-link="https://www.canva.com/design/DAGOpTnmfJk/SOIIDd6d2lwOYk91hO_5Aw/edit" onclick="openModal('../image/simpleCV (3).png', this.getAttribute('data-link'))"><img src="../image/simpleCV (3).png" alt="Đơn giản 3"></li>
+        </ul>
+        <ul class="image-list simple">
+            <li data-link="https://www.canva.com/design/DAGOpbzpGlQ/6Ls02t4LAJI31-48oT5I-A/edit" onclick="openModal('../image/simpleCV (4).png', this.getAttribute('data-link'))"><img src="../image/simpleCV (4).png" alt="Đơn giản 4"></li>
+            <li data-link="https://www.canva.com/design/DAGOpqCXKSI/8gZc7y_21ZgZ9Et4BfK7Rw/edit" onclick="openModal('../image/simpleCV (5).png', this.getAttribute('data-link'))"><img src="../image/simpleCV (5).png" alt="Đơn giản 5"></li>
+            <li data-link="https://www.canva.com/design/DAGOpgPHzas/bDT7G3n0CsEyEUf-wWlJCw/edit" onclick="openModal('../image/simpleCV (6).png', this.getAttribute('data-link'))"><img src="../image/simpleCV (6).png" alt="Đơn giản 6"></li>
+        </ul>
+        <ul class="image-list simple">
+            <li data-link="https://www.canva.com/design/DAGOsP7ChY4/qQ3fTBUW8h2L5STepcRP9g/edit" onclick="openModal('../image/simpleCV (7).png', this.getAttribute('data-link'))"><img src="../image/simpleCV (7).png" alt="Đơn giản 7"></li>
+            <li data-link="https://www.canva.com/design/DAGOsOzouJ4/Q2SWK1IP4CFaD0KJdW9r5w/edit" onclick="openModal('../image/simpleCV (8).png', this.getAttribute('data-link'))"><img src="../image/simpleCV (8).png" alt="Đơn giản 8"></li>
+            <li data-link="https://www.canva.com/design/DAGOpWNUrs8/I-Q4atzpeD7B-a1ItqrPMQ/edit" onclick="openModal('../image/simpleCV (9).png', this.getAttribute('data-link'))"><img src="../image/simpleCV (9).png" alt="Đơn giản 9"></li>
+        </ul>
+        <ul class="image-list simple">
+            <li data-link="https://www.canva.com/design/DAGOsHkBkCY/k66VYxY2NrWP_UoFOQDfzw/edit" onclick="openModal('../image/simpleCV (10).png', this.getAttribute('data-link'))"><img src="../image/simpleCV (10).png" alt="Đơn giản 10"></li>
+            <li data-link="https://www.canva.com/design/DAGOsD2gWvU/JZANlCpEGOkLlmj-N2c03A/edit" onclick="openModal('../image/simpleCV (11).png', this.getAttribute('data-link'))"><img src="../image/simpleCV (11).png" alt="Đơn giản 11"></li>
+            <li data-link="https://www.canva.com/design/DAGOsATXRMY/ifvMCu4wtHy9pCvgK7Liwg/edit" onclick="openModal('../image/simpleCV (12).png', this.getAttribute('data-link'))"><img src="../image/simpleCV (12).png" alt="Đơn giản 12"></li>
+        </ul>
+        <ul class="image-list modern">
+            <li data-link="https://www.canva.com/design/DAGOpipIZ_4/THzfj5q1OyBYcumgO3Np-Q/edit" onclick="openModal('../image/mordenCV (1).png', this.getAttribute('data-link'))"><img src="../image/mordenCV (1).png" alt="Hiện đại 1"></li>
+            <li data-link="https://www.canva.com/design/DAGOphjxV4M/M1jHrFKoKwNbpia9Vo0f0w/edit" onclick="openModal('../image/mordenCV (2).png', this.getAttribute('data-link'))"><img src="../image/mordenCV (2).png" alt="Hiện đại 2"></li>
+            <li data-link="https://www.canva.com/design/DAGOplVc7w8/agNXVYDQ8DjXzZjuaAfTfA/edit" onclick="openModal('../image/mordenCV (3).png', this.getAttribute('data-link'))"><img src="../image/mordenCV (3).png" alt="Hiện đại 3"></li>
+        </ul>
+        <ul class="image-list modern">
+            <li data-link="https://www.canva.com/design/DAGOphcgJOU/9fTB-F8KK-FaAXJxSRBc7Q/edit" onclick="openModal('../image/mordenCV (4).png', this.getAttribute('data-link'))"><img src="../image/mordenCV (4).png" alt="Hiện đại 4"></li>
+            <li data-link="https://www.canva.com/design/DAGOptJwlsQ/SGLEjSWEtsY37rQ-bKTGBQ/edit" onclick="openModal('../image/mordenCV (5).png', this.getAttribute('data-link'))"><img src="../image/mordenCV (5).png" alt="Hiện đại 5"></li>
+            <li data-link="https://www.canva.com/design/DAGOpt9Hu7c/BpzZ3xQ1NapngCfBFGhQRw/edit" onclick="openModal('../image/mordenCV (6).png', this.getAttribute('data-link'))"><img src="../image/mordenCV (6).png" alt="Hiện đại 6"></li>
+        </ul>
+        <ul class="image-list modern">
+            <li data-link="https://www.canva.com/design/DAGOptbTOhs/l0t2lG_8tEEo3vEyMdMllg/edit" onclick="openModal('../image/mordenCV (7).png', this.getAttribute('data-link'))"><img src="../image/mordenCV (7).png" alt="Hiện đại 7"></li>
+            <li data-link="https://www.canva.com/design/DAGOpk-7f3I/94r7C85yqEMdkeO7gkkgOQ/edit" onclick="openModal('../image/mordenCV (8).png', this.getAttribute('data-link'))"><img src="../image/mordenCV (8).png" alt="Hiện đại 8"></li>
+            <li data-link="https://www.canva.com/design/DAGOpkYVJtk/cTGC3zg7K3BEmkbxFtvJeA/edit" onclick="openModal('../image/mordenCV (9).png', this.getAttribute('data-link'))"><img src="../image/mordenCV (9).png" alt="Hiện đại 9"></li>
+        </ul>
+        <ul class="image-list modern">
+            <li data-link="https://www.canva.com/design/DAGOpqJGypo/vnAq89tuHTPOSXoxvGg_SQ/edit" onclick="openModal('../image/mordenCV (10).png', this.getAttribute('data-link'))"><img src="../image/mordenCV (10).png" alt="Hiện đại 10"></li>
+            <li data-link="https://www.canva.com/design/DAGOphdDUP4/RbqhnR5E4Nlfqbuy-yygbA/edit" onclick="openModal('../image/mordenCV (11).png', this.getAttribute('data-link'))"><img src="../image/mordenCV (11).png" alt="Hiện đại 11"></li>
+            <li data-link="https://www.canva.com/design/DAGOphdDUP4/RbqhnR5E4Nlfqbuy-yygbA/edit" onclick="openModal('../image/mordenCV (12).png', this.getAttribute('data-link'))"><img src="../image/mordenCV (12).png" alt="Hiện đại 12"></li>
+        </ul>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <img id="modal-image" src="" alt="Selected CV">
+            <div class="modal-controls">
+                <p>Khi bạn chọn <strong>'Sử dụng mẫu này'</strong>, bạn sẽ được chuyển đến <a onclick="applyChanges()">Canva</a> để chỉnh sửa mẫu CV.</p>
+                <button onclick="applyChanges()">Sử dụng mẫu này</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/BaiTapLon.js"></script>
+</body>
+</html>
